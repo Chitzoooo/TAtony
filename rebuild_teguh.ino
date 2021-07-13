@@ -222,6 +222,7 @@ void ultsnc()
     Serial.println("masukkan jumlah air");
     digitalWrite(led2, HIGH);
     delay(1000);
+   l++;
   }
 }
 
@@ -327,6 +328,6 @@ void loop()
       digitalWrite(led2, LOW);
       delay (1000);
     }
+   l=0;
   }
- l++;
 }
